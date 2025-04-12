@@ -4,7 +4,7 @@ import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import CropRecommendation from './pages/CropRecommendation';
-//import CropInformation from './pages/CropInformation';
+import CropInformation from './pages/CropInformation';
 import SellCrops from './pages/SellCrops';
 import InformativeContent from './components/InformativeContent';
 import SmartFarming from './pages/learning/SmartFarming';
@@ -29,7 +29,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/recommendation" element={<CropRecommendation />} />
-{/*               <Route path="/crops" element={<CropInformation />} /> */}
+              <Route path="/crops" element={<CropInformation />} />
               <Route path="/sell" element={<SellCrops />} />
               <Route path="/resources" element={<InformativeContent />} />
               <Route path="/learning/smart-farming" element={<SmartFarming />} />
