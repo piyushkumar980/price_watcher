@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000/api'; // Make sure backend is running here
+const API_BASE_URL = 'https://price-watcher.onrender.com/api'; // Make sure backend is running here
 
 export const getPrediction = async (formData) => {
   try {

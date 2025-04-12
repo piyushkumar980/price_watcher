@@ -625,13 +625,7 @@ export const CROP_RECOMMENDATIONS = {
     }
   };
 
-// Remove these API endpoints as we're using our local database
-const AGRI_ENDPOINTS = {
-  STATE_AGRI: {
-    MAHARASHTRA: "https://krishi.maharashtra.gov.in/api/v1",
-    KARNATAKA: "https://raitamitra.karnataka.gov.in/api/v1"
-  }
-};
+
 
 // Function to get crop recommendations
 export const getAICropRecommendations = async (data) => {
